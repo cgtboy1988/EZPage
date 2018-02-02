@@ -1,0 +1,44 @@
+2
+Ongoing Projects
+<p>
+I am currently actively working on several projects at both the University of Arizona and Lawrence Livermore
+National Laboratory.  These include:
+</p>
+<p>&nbsp;</p>
+<h3 class="highlighted">RevEngE</h3>
+<span class="highlighted">University of Arizona</span>
+<p>
+<a href="http://revenge.cs.arizona.edu">The Reverse Engineering Engine</a> (RevEngE) is a web application designed to empirically study the strength
+and strategies to defeat code obfuscation.  RevEngE also includes educational aspects, having the capability
+to generate reverse engineering problems for training and classroom use.
+</p>
+<p>&nbsp;</p>
+<h3 class="highlighted">Catalyst Security Challenge</h3>
+<span class="highlighted">Lawrence Livermore National Laboratory</span>
+<p>
+The Catalyst Security Challenge Framework (see associated publication <a href="https://www.usenix.org/conference/ase17/workshop-program/presentation/taylor">here</a>)
+is an in-development system designed to extensibly host many different types of computer science challenges,
+with an emphasis on security.  One component, the Catalyst Data Collection Engine&mdash;which is an expansion of
+the data collection engine originally implemented for RevEngE&mdash;is operational and can
+be found <a href="http://revenge.cs.arizona.edu/DataCollectorServer/openDataCollection/index.jsp">here</a>.
+This particular component offers a way to monitor the human-device interaction of end users, particularly
+as they complete tasks, in order to study that interaction.
+</p>
+<p>&nbsp;</p>
+<h3 class="highlighted">Cyber Fire</h3>
+<span class="highlighted">Lawrence Livermore National Laboratory, Los Alamos National Laboratory</span>
+<p>
+<a href="https://cyberfire.lanl.gov">Cyber Fire</a> is a Los Alamos developed CTF competition which has
+expanded into a joint effort between Los Alamos, Lawrence Livermore, other Department of Energy entities,
+and industry partners.  The joint team advances the CTF infrastructure components and builds new
+challenge content. 
+</p>
+<p>&nbsp;</p>
+<h3 class="highlighted">Journal of Emerging Technology</h3>
+<span class="highlighted">University of Arizona</span>
+<p>
+<a href="https://ljet.arizona.edu">The University of Arizona Law Journal of Emerging Technology</a> (JET
+or LJET) is a new journal at the James E. Rogers College of Law.  I served as founding editor-in-chief
+and currently serve as the chief systems manager.  The journal is very much a work-in-progress, as is its
+publication software.
+</p>

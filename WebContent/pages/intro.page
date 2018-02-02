@@ -1,0 +1,36 @@
+0
+Welcome
+<table>
+<tr>
+<td valign="top" width="35%">
+<div align="center">
+<figure style="margin: 0; padding-right: 1em;">
+<img src="contentImages/profilePic.jpg" width="100%">
+<figcaption>
+Seeing some Egyptian pyramids on horseback, circa 2008.
+</figcaption>
+</figure>
+</div>
+</td>
+<td valign="top">
+<p>
+Welcome to my page!  This page is powered by <a href="https://github.com/cgtboy1988/EZPage">EZPage</a>,
+which is a limited scope, lightweight, file system based web framework that runs on Tomcat+JSP that I
+wrote when told I had to have a personal website.  The photos cycling in the background are taken
+by&mdash;or, occasionally, around&mdash;me, at sites around the globe.
+</p>
+<p>
+Because this is supposed to be a personal/professional website&mdash;which, apparently,
+<a href="https://www.linkedin.com/in/clark-taylor-7a23b79a/">LinkedIn</a> has not yet made
+obsolete&mdash;here are a few basics:
+<ul>
+<li>I am a PhD student at the <a href="https://www.cs.arizona.edu/">University of Arizona Department of Computer Science</a>, where I work primarily with my faculty advisor <a href="http://collberg.cs.arizona.edu/">Christian Collberg</a></li>
+<li>I also work on computer security and outreach at <a href="https://www.llnl.gov/">Lawrence Livermore National Laboratory</a></li>
+<li>In 2016, I earned a JD from the <a href="https://law.arizona.edu/">University of Arizona James E. Rogers Law School</a></li>
+<li>In 2012, I earned a BS in Computer Science from <a href="http://www.csuchico.edu/csci/">California State University, Chico</a></li>
+<li>I am originally from Sacramento, CA, and currently reside in Tucson, AZ</li>
+</ul> 
+</p>
+</td>
+</tr>
+</table>
