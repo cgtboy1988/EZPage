@@ -4,7 +4,7 @@ An easy, JSP+Tomcat engine/framework for hosting small sites.
 
 ## About
 
-In the Spring of 2018, I was informed that I had to have a personal website for profile purposes.  Although I had been encouraged in the past to build such a site, I never got around to it until I absolutely had to.  This is because I wanted to build a site that is nice and easy to amend, requiring little to no maintenance on the UI, instead allowing easy changing of the content and looking great regardless.  Clearly, this would be more than a few minutes of work, hence putting it off until required.  The resulting webapp that accomplishes these goals in this, EZPage.
+In the Spring of 2018, I was informed that I had to have a personal website for profile purposes.  Although I had been encouraged in the past to build such a site, I never got around to it until I absolutely had to.  This is because I wanted to build a site that is nice and easy to amend while requiring little to no maintenance on the UI, allowing easy changing of the content and looking great regardless.  Clearly, this would be more than a few minutes of work, hence putting it off until required.  The resulting webapp that accomplishes these goals in this, EZPage.
 
 You can see my own EZPage profile here: http://revenge.cs.arizona.edu/ClarkTaylor/index.jsp
 
