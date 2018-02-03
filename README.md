@@ -24,6 +24,18 @@ Third line through end: The text/HTML content of the page
 
 You can put images you want to host in the /contentImages/ directory (please remove my images from there, also).
 
-That's it!  If you host your page, it should 
+That's it!  If you host your page, it should hopefully look nice!
 
 ## Interesting Technical Details
+
+Most of this webapp is pretty simple.  However, one technical problem took a bit of work to figure out.  Specifically, automatically generating a color scheme for the background and text colors is not as easy as it sounds.  Certainly, a black-on-white or vice versa scheme would be easy to implement, but this clashes with the background significantly and looks bad.
+
+Instead, EZPage first decides on the background color by examining the first and last row of pixels in the image, getting an average color from that.  This generates a background color which looks quite nice with the photo.  Opacity is set at .9 so that the photo is still visible, and this looks natural because the background color matches the photo.  However, this often results in background colors neither dark nor bright enough to show text well.  So, the color is brightened or darkened to a threshold (retaining the color balance) depending on whether the color was initially [somewhat] bright or [somewhat] dark.
+
+After this background is selected, the foreground text is selected by inverting the initial (pre darkened/lightened) background color and running a similar darkening/lightening algorithm.  This makes the text color contrast with the background well.
+
+Overall, this tends to work on photographic backgrounds.  It has not yet been tested with other types of backgrounds.
+
+## License Type Stuff
+
+All images and content in the /pages/ are not licensed here in any way, shape, or form.  The other software and files, in particular including the index.jsp and randomImageURL.jsp files, are offered for use in non-commercial applications.  Commercial applications should contact me first, but I will likely grant a free license for them as well on an ad-hoc basis.  No warranty, expressed or implied, is included.  Software is as-is and not guaranteed to work, be secure, or not considerably harm your property if you try to use it.  It is not my fault if you use this software and suddenly a pack of wild, rabid honey badgers attack you.
