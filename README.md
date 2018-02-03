@@ -6,6 +6,8 @@ An easy, JSP+Tomcat engine/framework for hosting small sites.
 
 In the Spring of 2018, I was informed that I had to have a personal website for profile purposes.  Although I had been encouraged in the past to build such a site, I never got around to it until I absolutely had to.  This is because I wanted to build a site that is nice and easy to amend, requiring little to no maintenance on the UI, instead allowing easy changing of the content and looking great regardless.  Clearly, this would be more than a few minutes of work, hence putting it off until required.  The resulting webapp that accomplishes these goals in this, EZPage.
 
+You can see my own EZPage profile here: http://revenge.cs.arizona.edu/ClarkTaylor/index.jsp
+
 ## Requirements and Installation
 
 EZPage itself is fairly lightweight, but it runs on Apache Tomcat, which itself is a mid-weight web server and requires Java.  In order to run this webapp, just copy it (or compile it to a WAR and copy it) to the webapps directory of your Tomcat installation.  No external libraries are required, but you might want to ensure your Tomcat server is running on port 80 or forwarded to that port via another server such as Apache or nginx.  Please change the code from my default content before publishing, unless you want to host a copy of my profile!
