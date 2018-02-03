@@ -21,7 +21,9 @@ To build your own profile, first please remove and replace the files in WebConte
 Second, remove and replace the files in WebContent/pages with your own.  These pages are your EZPage's content.  Each page contains an order, a title, and content.  The order tells EZPage which order to put your pages in on the navigation bar.  The title is an entry on the navigation bar.  If that entry gets clicked, then the title and content are displayed on your EZPage (and any previously displayed content is hidden).  The content can be plaintext or HTML; your text/HTML sits within a div on the main EZPage when active.  The format of the EZPage.page files is as follows:
 
 First line: 1 integer which denotes the order of the page on the navigation
+
 Second line: The title of the page
+
 Third line through end: The text/HTML content of the page
 
 You can put images you want to host in the /contentImages/ directory (please remove my images from there, also).
